@@ -23,7 +23,9 @@
 * bin
 * include
 * lib
+
 2.把boost，openblas，armadillo目录下的include复制到该mlpack/include下
+
 3.把下面包的x64（按照你的编译模式选择32或者64）的lib包复制到该mlpack/lib下；
 * boost_unit_test_framework-vc141
 * boost_program_options-vc141
@@ -32,5 +34,7 @@
 * boost_math_c99-vc141
 * OpenBLAS
 * Armadillo
+
 4.vs2017新建一个项目，按https://github.com/mlpack/mlpack/wiki/WindowsBuild方法导入头文件和包。这里，头文件为mlpack/include，包为mlpack/lib
+
 5.enjoy it
