@@ -16,7 +16,7 @@
 * Armadillo
 
 ## 编译
-参考https://keon.io/mlpack-on-windows/（注：openblas的.dll文件和lib不用复制到C:/windows/system32下）
+参考https://keon.io/mlpack-on-windows/
 
 ## 使用
 1.把编译生成的C:/program files下的mlpack复制一份。该mlpack包括：
@@ -35,6 +35,8 @@
 * OpenBLAS
 * Armadillo
 
-4.vs2017新建一个项目，按https://github.com/mlpack/mlpack/wiki/WindowsBuild方法导入头文件和包。这里，头文件为mlpack/include，包为mlpack/lib
+4.vs2017新建一个项目，按https://github.com/mlpack/mlpack/wiki/WindowsBuild 方法导入头文件和包。这里，头文件为mlpack/include，包为mlpack/lib
 
-5.enjoy it
+5.把mlpack.dll（在mlapck/bin下）和openblas包bin下.dll文件全部复制到项目Release下（与该项目可执行程序exe一个目录）
+
+6.enjoy it
