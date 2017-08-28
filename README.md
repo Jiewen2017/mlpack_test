@@ -20,9 +20,9 @@
 
 ## 使用
 1. 把编译生成的C:/program files下的mlpack复制一份。该mlpack包括：
- * bin
- * include
- * lib
+  * bin
+  * include
+  * lib
 
 2. 把boost，openblas，armadillo目录下的include复制到该mlpack/include下
 
