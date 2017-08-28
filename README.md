@@ -39,4 +39,4 @@
 
 5.把mlpack.dll（在mlapck/bin下）和openblas包bin下.dll文件全部复制到项目Release下（与该项目可执行程序exe一个目录）
 
-6.enjoy it
+6.enjoy it！
