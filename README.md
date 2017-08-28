@@ -20,7 +20,7 @@
 
 ## 使用
 1. 把编译生成的C:/program files下的mlpack复制一份。该mlpack包括：
-  *  bin
+  *bin
   * include
   * lib
 
