@@ -1,0 +1,17 @@
+﻿  stdafx.cpp
+  mlpacktest.cpp
+  Unknown compiler version - please run the configure tests and report the results
+D:\mlpack_test\mlpack\include\boost/spirit/home/support/char_encoding/iso8859_1.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\mlpack_test\mlpack\include\mlpack/core/math/random.hpp(48): warning C4267: 'argument': conversion from 'size_t' to 'const arma::arma_rng::seed_type', possible loss of data
+D:\mlpack_test\mlpack\include\mlpack/core/math/random.hpp(128): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
+D:\mlpack_test\mlpack\include\mlpack/core/dists/discrete_distribution.hpp(64): warning C4244: 'argument': conversion from 'const ::size_t' to 'const double', possible loss of data
+D:\mlpack_test\mlpack\include\mlpack/core/dists/discrete_distribution.hpp(87): warning C4244: 'argument': conversion from 'const ::size_t' to 'const double', possible loss of data
+D:\mlpack_test\mlpack\include\mlpack/core/dists/discrete_distribution.hpp(108): warning C4244: 'argument': conversion from 'const arma::uword' to 'const double', possible loss of data
+     Creating library D:\mlpack_test\x64\Release\mlpack_test.lib and object D:\mlpack_test\x64\Release\mlpack_test.exp
+  Generating code
+  3104 of 3141 functions (98.8%) were compiled, the rest were copied from previous compilation.
+    208 functions were new in current compilation
+    8 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  mlpack_test.vcxproj -> D:\mlpack_test\x64\Release\mlpack_test.exe
+  mlpack_test.vcxproj -> D:\mlpack_test\x64\Release\mlpack_test.pdb (Full PDB)
